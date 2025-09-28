@@ -7,7 +7,7 @@ local functionbase = base:CreateButton("Insert Function", "Inserts the base of a
 local triabase = triab:CreateButton("Insert a TRIA GetButtonEvent", "Inserts a button function for TRIA.os", "rbxassetid://0"
 
 local function insertfunction()
-    local text = "local function funcName()
-        -- code
-    end"
+    local text = "local function textHere()
+                -- anyone who sees this ill do this when im home
+                    end"
 end
