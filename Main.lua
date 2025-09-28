@@ -5,3 +5,9 @@ local note = "hey! if you wanna help on this plugin, go to https://github.com/Ca
 print(note)
 local functionbase = base:CreateButton("Insert Function", "Inserts the base of a function at your cursor.", "rbxassetid://0"
 local triabase = triab:CreateButton("Insert a TRIA GetButtonEvent", "Inserts a button function for TRIA.os", "rbxassetid://0"
+
+local function insertfunction()
+    local text = "local function funcName()
+        -- code
+    end"
+end
